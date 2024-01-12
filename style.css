@@ -47,10 +47,10 @@ body {
 
 .nav ul li a {
     text-decoration: none;
-    margin: 0 30px;
-    padding: 50px;
+    margin: 0 10px;
+    padding: 5px;
     background: transparent;
-    border: 1px solid black;
+    border: 1px solid #b3adad;
     border-radius: 5px;
 }
 
