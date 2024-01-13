@@ -15,7 +15,7 @@ body {
 }
 
 
-.btn-primary{
+.btn-primary {
     padding: 1em 2em;
     color: white;
     background: orange;
@@ -48,10 +48,13 @@ body {
 .nav ul li a {
     text-decoration: none;
     margin: 0 10px;
-    padding: 5px;
-    background: transparent;
+    padding: 6px 10px;
+    background: orange;
     border: 1px solid #b3adad;
     border-radius: 5px;
+    color: white;
+    font-weight: 600;
+
 }
 
 /* banner-css-start */
@@ -87,35 +90,320 @@ body {
     line-height: 26px;
 }
 
-.banner-img img{
+.banner-img img {
     max-width: 100%;
 
 }
+
+.team-section {
+    padding: 100px 0;
+}
+
+
+.section-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.team-img img {
+    /* max-width: 100%; */
+}
+
+.team-des {
+    padding: 40px;
+}
+
+.team-des h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.team-des h2 strong {}
+
+.team-des h2 span {
+    color: orange;
+}
+
+.team-des p {
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+/* feature-section */
+
+
+.features-section {
+    padding: 100px 0;
+}
+
+
+.feature-title h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 1em;
+    position: relative;
+}
+
+.feature-title h1::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: -39px;
+    display: block;
+    background: orange;
+    width: 8px;
+    height: 2em;
+}
+
+.feature-title p {
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.feature-text {
+    width: 45%;
+}
+
+.feature-box {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 30px 0 30px 20px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.feature-box p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+.feature-img {
+    width: 45%;
+    margin: auto;
+    position: relative;
+}
+
+
+.box {
+    position: absolute;
+    bottom: -7%;
+    left: -19%;
+    background: orange;
+    width: 17em;
+    height: 9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.box h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.box span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+}
+
+.f-img img {
+    max-width: 100%;
+}
+
+
+
+/* facts-section */
+
+
+
+.some-facts {
+    padding: 100px 0;
+}
+
+
+.fact-title {}
+
+.fact-title h1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.fact-title p {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 35%;
+}
+
+
+
+
+.fact-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    padding: 50px;
+}
+
+
+.fact-img-box {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.fact-img-box h1 {
+    margin: 15px 0;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.fact-img-box span {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* sponsor-section */
+.sponsor{
+    padding-bottom: 50px;
+}
+
+.sponsor-title{
+    text-align: center;
+}
+.sponsor-title p{
+    margin: auto;
+}
+
+.sponsor-img{
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.footer{
+    background: #FF900E1A;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer p{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive css */
 
 
 @media screen and (max-width:576px) {
 
-    .header{
+    .header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .banner{
+
+    .banner {
         padding: 20px;
     }
-    .banner-title p{
+
+    .banner-title p {
         max-width: 80%;
         margin: 50px auto;
     }
-    .nav{
+
+    .nav {
         margin-top: 40px;
     }
-    .nav ul li a{
+
+    .nav ul li a {
         margin: 0 5px;
     }
-    .banner-title h1{
+
+    .banner-title h1 {
         font-size: 25px;
     }
 }
